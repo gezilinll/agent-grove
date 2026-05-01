@@ -1,0 +1,34 @@
+# Local third-party source clones
+external/
+
+# Generated outputs
+artifacts/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.turbo/
+.next/
+
