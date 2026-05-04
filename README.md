@@ -41,10 +41,11 @@ The first stage focuses on **Agent Project Infrastructure**:
 
 See: [Agent Project Infrastructure](docs/agent-project-infrastructure.md)
 
+The first Agent Grove agent is tentatively named **Arbor**. At this stage, Arbor is not a general-purpose assistant; it is a working agent for maintaining the research process, evidence, case studies, and future examples.
+
 ## Repository Policy
 
 - Directory names, file names, code identifiers, and config keys use English.
 - Main explanations are Chinese-first during the study phase.
 - New directories are created only when there is real content to place in them.
 - References are kept close to the distilled document they support.
-

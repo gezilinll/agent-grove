@@ -41,10 +41,11 @@
 
 大纲见：[Agent Project Infrastructure](docs/agent-project-infrastructure.md)
 
+Agent Grove 未来会逐步长出自己的 Agent。第一个 Agent 暂定名为 **Arbor**：它现阶段不是全能助理，而是帮助维护研究流程、整理证据、检查文档依据、沉淀案例和推动 examples 的工作型 Agent。
+
 ## 仓库原则
 
 - 目录名、文件名、代码标识符使用英文。
 - 学习阶段的主要说明文档使用中文。
 - 只有当内容成熟时才创建目录和模板。
 - 参考资料就近附在被它支撑的沉淀文档里，不单独堆成资料目录。
-
