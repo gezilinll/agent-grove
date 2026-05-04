@@ -41,7 +41,7 @@
 
 大纲见：[Agent Project Infrastructure](docs/agent-project-infrastructure.md)
 
-Agent Grove 未来会逐步长出自己的 Agent。第一个 Agent 暂定名为 **Arbor**：它现阶段不是全能助理，而是帮助维护研究流程、整理证据、检查文档依据、沉淀案例和推动 examples 的工作型 Agent。
+Agent Grove 未来会逐步长出自己的 Agent。第一个 Agent 命名为 **Arbor**：它现阶段不是全能助理，而是帮助维护研究流程、整理证据、检查文档依据、沉淀案例和推动 examples 的工作型 Agent。
 
 ## 仓库原则
 

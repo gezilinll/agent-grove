@@ -41,7 +41,7 @@ The first stage focuses on **Agent Project Infrastructure**:
 
 See: [Agent Project Infrastructure](docs/agent-project-infrastructure.md)
 
-The first Agent Grove agent is tentatively named **Arbor**. At this stage, Arbor is not a general-purpose assistant; it is a working agent for maintaining the research process, evidence, case studies, and future examples.
+The first Agent Grove agent is named **Arbor**. At this stage, Arbor is not a general-purpose assistant; it is a working agent for maintaining the research process, evidence, case studies, and future examples.
 
 ## Repository Policy
 
