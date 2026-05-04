@@ -27,8 +27,8 @@ venv/
 
 # Node
 node_modules/
+docs/.vitepress/cache/
 dist/
 build/
 .turbo/
 .next/
-

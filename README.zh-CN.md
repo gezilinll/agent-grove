@@ -1,6 +1,6 @@
 # Agent Grove
 
-[English](README.md)
+[English](README.md) · [文档站](https://gezilinll.github.io/agent-grove/zh/) · [English Docs](https://gezilinll.github.io/agent-grove/)
 
 **Agent Grove** 是一个 AI Agent 工程化学习与实践项目：通过研究真实系统、吸收权威资料、构建最小实践，把现代 Agent 工程沉淀为简洁的知识框架、架构图、案例研究和可运行样例，并最终长出一个可用的 Agent 系统。
 
@@ -17,7 +17,7 @@
 
 | 大类 | 核心问题 |
 |---|---|
-| Agent Project Infrastructure | 如何给项目和 Agent 定义规则、上下文、边界、harness、eval，让 AI 能稳定工作？ |
+| Agent-Ready Engineering Infrastructure | 如何把项目的上下文、意图、执行、验证、治理和反馈工程化，让 Coding Agent 能可靠工作？ |
 | Agent Core | Agent Loop、状态、规划、执行、反思、handoff 如何设计？ |
 | Context Engineering | Agent 如何获取、选择、压缩和更新上下文？ |
 | Tools and MCP | tool、resource、prompt、skill、权限和副作用如何建模？ |
@@ -28,18 +28,16 @@
 | Personal Agents | 长期个人助理如何处理多渠道、记忆、自动化和安全？ |
 | Model Gateway and Serving | 多模型路由、fallback、成本、限流、缓存、推理服务如何设计？ |
 
-## 当前阶段
+## 文档站
 
-第一阶段只聚焦 **Agent Project Infrastructure**：
+文档站基于 VitePress 和 GitHub Pages 构建。
 
-- `AGENTS.md` 这类项目规则入口
-- 描述目标、边界和验收标准的 spec
-- 让任务可复现执行的 harness
-- 判断行为可靠性的 eval
-- tool / permission / side effect 边界
-- 让 AI 快速理解项目的上下文组织方式
+```bash
+npm run docs:dev
+npm run docs:build
+```
 
-大纲见：[Agent Project Infrastructure](docs/agent-project-infrastructure.md)
+英文页面放在 `docs/`，中文页面放在 `docs/zh/`。
 
 Agent Grove 未来会逐步长出自己的 Agent。第一个 Agent 命名为 **Arbor**：它现阶段不是全能助理，而是帮助维护研究流程、整理证据、检查文档依据、沉淀案例和推动 examples 的工作型 Agent。
 

@@ -1,6 +1,6 @@
 # Agent Grove
 
-[中文说明](README.zh-CN.md)
+[中文说明](README.zh-CN.md) · [Documentation site](https://gezilinll.github.io/agent-grove/) · [中文文档站](https://gezilinll.github.io/agent-grove/zh/)
 
 **Agent Grove** is an open-source study and practice project for distilling modern AI agent engineering into concise knowledge, diagrams, minimal examples, and eventually a usable agent system.
 
@@ -17,7 +17,7 @@ This is not a link collection. References, open-source projects, and experiments
 
 | Area | Core Question |
 |---|---|
-| Agent Project Infrastructure | How do we define rules, context, boundaries, harnesses, and evals so AI agents can work reliably in a project? |
+| Agent-Ready Engineering Infrastructure | How do we engineer project context, intent, execution, verification, governance, and feedback so coding agents can work reliably? |
 | Agent Core | How should agent loops, state, planning, execution, reflection, and handoff be designed? |
 | Context Engineering | How should agents retrieve, select, compress, and update context? |
 | Tools and MCP | How should tools, resources, prompts, skills, permissions, and side effects be modeled? |
@@ -28,18 +28,16 @@ This is not a link collection. References, open-source projects, and experiments
 | Personal Agents | How do long-running assistants handle channels, memory, automation, and safety? |
 | Model Gateway and Serving | How should model routing, fallback, cost, rate limits, caching, and serving be handled? |
 
-## Current Stage
+## Documentation Site
 
-The first stage focuses on **Agent Project Infrastructure**:
+The documentation site is built with VitePress and deployed with GitHub Pages.
 
-- project-level instructions such as `AGENTS.md`
-- specs for intent, scope, and acceptance criteria
-- harnesses for repeatable execution
-- evals for behavior and regression checks
-- tool and permission boundaries
-- source/context organization for agent-readable projects
+```bash
+npm run docs:dev
+npm run docs:build
+```
 
-See: [Agent Project Infrastructure](docs/agent-project-infrastructure.md)
+English pages live under `docs/`. Chinese pages live under `docs/zh/`.
 
 The first Agent Grove agent is named **Arbor**. At this stage, Arbor is not a general-purpose assistant; it is a working agent for maintaining the research process, evidence, case studies, and future examples.
 
