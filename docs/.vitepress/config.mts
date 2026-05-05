@@ -87,6 +87,15 @@ export default defineConfig({
               items: [
                 { text: '概览', link: '/zh/' }
               ]
+            },
+            {
+              text: '知识框架',
+              items: [
+                {
+                  text: 'Agent-Ready Engineering Infrastructure',
+                  link: '/zh/agent-ready-engineering-infrastructure'
+                }
+              ]
             }
           ]
         },

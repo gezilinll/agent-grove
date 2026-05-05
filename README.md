@@ -39,7 +39,7 @@ npm run docs:build
 
 English pages live under `docs/`. Chinese pages live under `docs/zh/`.
 
-The first Agent Grove agent is named **Arbor**. At this stage, Arbor is not a general-purpose assistant; it is a working agent for maintaining the research process, evidence, case studies, and future examples.
+The first Agent Grove agent is named **Arbor**. Arbor is not a helper for writing articles or maintaining the research workflow; it is a lightweight learning version of OpenClaw for practicing agent engineering infrastructure in real code.
 
 ## Repository Policy
 
