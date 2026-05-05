@@ -16,7 +16,7 @@ Agent-ready repo
   + feedback
 ```
 
-![Agent-Ready Codebase 总览图](./assets/agent-ready/agent-ready-codebase-overview.png)
+![Agent-Ready Codebase 总览图](../assets/agent-ready/agent-ready-codebase-overview.png)
 
 `spec` 和 `harness` 是核心模块，但不是全部。
 
@@ -171,7 +171,7 @@ steps:
     command: speckit.implement
 ```
 
-![Spec Kit Workflow 流程图](./assets/agent-ready/spec-kit-workflow.png)
+![Spec Kit Workflow 流程图](../assets/agent-ready/spec-kit-workflow.png)
 
 它的基础设施意义在于三点：
 
@@ -197,7 +197,7 @@ openspec/
       <completed-change>/
 ```
 
-![OpenSpec Workflow 生命周期图](./assets/agent-ready/openspec-workflow.png)
+![OpenSpec Workflow 生命周期图](../assets/agent-ready/openspec-workflow.png)
 
 真实 change 里，`proposal.md` 先定义 why / what / non-goals：
 
@@ -349,7 +349,7 @@ Spec 和 harness 的关系可以用一句话概括：
 
 > Spec defines correctness. Harness makes correctness executable.
 
-![Spec × Harness 关系图](./assets/agent-ready/spec-harness-relationship.png)
+![Spec × Harness 关系图](../assets/agent-ready/spec-harness-relationship.png)
 
 ### 代码证据：Dify 用 path filter 选择要跑的 CI
 
@@ -608,7 +608,7 @@ Feedback Layer 的价值有三层：
 
 一个普通项目不需要一开始就引入完整的 Spec Kit、OpenSpec、eval harness 和复杂 CI gate。更实际的路线是分级成熟。
 
-![Agent-ready Repo 成熟度路线图](./assets/agent-ready/agent-ready-roadmap.png)
+![Agent-ready Repo 成熟度路线图](../assets/agent-ready/agent-ready-roadmap.png)
 
 | Level | 目标 | 最小动作 |
 |---|---|---|

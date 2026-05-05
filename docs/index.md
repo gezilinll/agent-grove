@@ -6,6 +6,7 @@ This site is the reading layer of the repository. GitHub remains the source of t
 
 ## Start Here
 
+- [Agent-Ready Engineering Infrastructure](/agent-ready-engineering-infrastructure)
 - [Read in Chinese](/zh/)
 - [GitHub repository](https://github.com/gezilinll/agent-grove)
 
@@ -13,7 +14,7 @@ This site is the reading layer of the repository. GitHub remains the source of t
 
 | Area | Core Question |
 |---|---|
-| Agent-Ready Engineering Infrastructure | How do we engineer project context, intent, execution, verification, governance, and feedback so coding agents can work reliably? |
+| [Agent-Ready Engineering Infrastructure](/agent-ready-engineering-infrastructure) | How do we engineer project context, intent, execution, verification, governance, and feedback so coding agents can work reliably? |
 | Agent Core | How should agent loops, state, planning, execution, reflection, and handoff be designed? |
 | Context Engineering | How should agents retrieve, select, compress, and update context? |
 | Tools and MCP | How should tools, resources, prompts, skills, permissions, and side effects be modeled? |

@@ -1,4 +1,6 @@
 :root {
+  --vp-layout-max-width: 1660px;
+  --vp-sidebar-width: 240px;
   --vp-c-brand-1: #17643a;
   --vp-c-brand-2: #24784a;
   --vp-c-brand-3: #2f8a56;
@@ -27,8 +29,43 @@
   --vp-c-divider: #27342c;
 }
 
+.VPDoc.has-aside.has-sidebar .content-container,
+.VPDoc.has-aside .content-container,
 .VPDoc .content-container {
-  max-width: 860px;
+  max-width: 920px;
+}
+
+@media (min-width: 1280px) {
+  .VPDoc.has-sidebar .container {
+    --doc-left-offset: clamp(24px, 3vw, 56px);
+    justify-content: flex-start;
+    margin-left: var(--doc-left-offset);
+    margin-right: 0;
+    width: calc(100% - var(--doc-left-offset));
+    max-width: 1240px;
+  }
+
+  .VPDoc.has-sidebar .content {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+    padding-left: 24px;
+    padding-right: 32px;
+  }
+
+  .VPDoc .aside {
+    flex: 0 0 248px;
+    max-width: 248px;
+    padding-left: 24px;
+  }
+
+  .VPDoc.has-aside.has-sidebar .content-container,
+  .VPDoc.has-aside .content-container,
+  .VPDoc .content-container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 920px !important;
+  }
 }
 
 .VPNavBarTranslations,

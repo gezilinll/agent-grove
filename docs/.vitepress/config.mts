@@ -43,11 +43,10 @@ export default defineConfig({
         ],
         sidebar: {
           '/': [
+            { text: 'Introduction', link: '/' },
             {
-              text: 'Start Here',
-              items: [
-                { text: 'Overview', link: '/' }
-              ]
+              text: 'Agent-Ready Engineering Infrastructure',
+              link: '/agent-ready-engineering-infrastructure'
             }
           ]
         },
@@ -82,20 +81,10 @@ export default defineConfig({
         ],
         sidebar: {
           '/zh/': [
+            { text: '介绍', link: '/zh/' },
             {
-              text: '开始阅读',
-              items: [
-                { text: '概览', link: '/zh/' }
-              ]
-            },
-            {
-              text: '知识框架',
-              items: [
-                {
-                  text: 'Agent-Ready Engineering Infrastructure',
-                  link: '/zh/agent-ready-engineering-infrastructure'
-                }
-              ]
+              text: 'Agent-Ready 工程基础设施',
+              link: '/zh/agent-ready-engineering-infrastructure'
             }
           ]
         },
